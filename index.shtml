@@ -1,59 +1,96 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="Description" content="Jason Gullifer's home page"/>
-<meta name="Keywords" content="jason, gullifer, jason gullifer, psycholinguistics, umass, amherst, penn state, sluicing"/>
-<style type="text/css">
-#jasonsWebsite {
-	background-image:url(files/jasons_website.gif);
-	height:63px;
-  }
-</style>
-<title>Jason Gullifer's Website - Home</title>
-<link href="files/site_style.css" rel="stylesheet" type="text/css" />
-<link href="files/menubar.css" rel="stylesheet" type="text/css" />
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Home - Jason Gullifer's Website</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
 </head>
 <body>
 
 
-<div id="page">
-  <div id="navbar">
-    <!--#include virtual="./includes/menubar.html" -->		
-  </div>
 
-  <div id="main">
-    <div id="jasonsWebsite" class="hide_header"><span >Jason's Website</span></div>
-    <div class="leftbox">
-    <p>
-      Welcome to my website. Here you can learn a
-      little bit about me, <a href="interests.shtml">personally</a> and
-      <a href="academics.shtml">academically</a>.
-    </p>
+	<!-- Primary Page Layout
+	================================================== -->
 
-    <p>
-      I currently live in State College, where I am attending the Cognitive Psychology program at Penn State University. I received my BA in Linguistics and Psychology from the University of Massachusetts, Amherst. 
-    </p>
-    </div>
-    
-    <div class="rightbox">
-    <h4>Contact Info</h4>
-    <p> 
-      <em>Office Address</em>:<br\><br>
-	  623 Moore Building <br/>
-	  University Park, PA 16802<br/>
-	  <br/>
-	  <em>Phone</em>: 1.814.863.7392<br/>
-	  <em>E-Mail</em>: <a href="mailto:jwg20@psu.edu">jwg20@psu.edu</a><br/>
-	</p>
-      </div>
-	<img 	class="center blackborder" src="files/canal.jpg" alt="Jason and Ash Canal-Side"/>	
-<div id="footer">
-	<!--#include virtual="./includes/footer.html" -->	
-	</div>                
-</div>
-                
-</div>
+	<!-- Delete everything in this .container and get started on your own site! -->
 
+	<div class="container">
+	  <div class="four columns sidebar">
+	    <nav>
+	    <h3>Jason Gullifer's Website</h3>
+	    <hr/>
+	    
+	    <!--#include virtual="./includes/menubar.html" -->		
+	    
+	    <h4>Contact Info</h4>
+	    <hr/>
+	    <p> 
+	      <em>Office Address</em>:<br\><br>
+	      2L Thomas Building <br/>
+	      University Park, PA 16802<br/>
+	      <br/>
+	      <em>Phone</em>: 1.814.863.7392<br/>
+	      <em>E-Mail</em>: <a href="mailto:jwg20@psu.edu">jwg20@psu.edu</a><br/>
+	    </p> 
+	    </nav>
+	  </div> 
+	  
+	  <div class="eleven columns content offset-by-one">
+	    <h1>Home</h1>
+	    <hr/>	    		
+	    <p>
+	      Welcome to my website. Here you can learn a
+	      little bit about me, <a href="interests.shtml">personally</a> and
+	      <a href="academics.shtml">academically</a>.
+	    </p>
+	    <p>
+	      I currently live in State College, where I am attending
+	      the Cognitive Psychology program at Penn State
+	      University. I received my M.S. from Penn State in 2011,
+	      and my BA in Linguistics and Psychology from the
+	      University of Massachusetts, Amherst in 2007.
+	    </p>	    
+	    <a href="http://www.flickr.com/photos/ashleydasilva/6069872731/in/set-72157626899858356"><img src="http://farm7.static.flickr.com/6073/6069872731_e64d77dd98.jpg" alt="Me"/></a>
+	  </div>
+
+		  	
+</div><!-- container -->
+
+
+
+	<!-- JS
+	================================================== -->
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="javascripts/tabs.js"></script>
+
+<!-- End Document
+================================================== -->
 </body>
 </html>
