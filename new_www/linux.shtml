@@ -65,7 +65,7 @@
 	  <div class="twelve columns content offset-by-four">
 	    <h1>Connecting to Penn State with Linux</h1>
 	    <hr/>	    		
-	     <h2>Penn State VPN</h2>
+	     <h3>Penn State VPN</h3>
 
 	    <p>In order to connect to Penn State's wireless (or PSU servers from off campus) you need a VPN client. If you've been to <a href="http://downloads.its.psu.edu">http://downloads.its.psu.edu</a>, you've probably noticed that ITS recommends that you download Cisco's VPN Client. However, I've found that that program is very inconvienient to install if you run Linux because it requires that you mess around with the kernel. I recommend using vpnc instead. This can be found in Ubuntu repositories (and probably the equivalent places on other distros). vpnc is a program that is run this from the command line as super user / with sudo.</p>
 
@@ -83,7 +83,7 @@
 		
 
 
-<h2>Connecting to Liberal Arts Computer Servers</h2>
+<h3>Connecting to Liberal Arts Computer Servers</h3>
 <p>Recently I started running into an error (<em>shell request failed on channel 0</em>when trying to ssh to the College of Liberal Arts SSH server. The fix was simple, but it eluded me at first. Apparantly the CLA SSH server isn't an SSH server anymore. It requires you to sftp instead:<br><br>
 
 # sftp your_cla_user_name@ssh.cla.psu.edu</p> 
