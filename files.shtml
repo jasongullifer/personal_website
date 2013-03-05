@@ -81,8 +81,29 @@
 	  <h3>Programs</h3>
 	  <ul>
 	    
-	    
-	    <li><a href="files/postField.py">postField</a> - Search multiple people on the PSU Directory</li>
+	    <li><a href="files/orthographicSimilarity.py">orthographicSimilarity (Python)</a> - Compute orthographic similarity for word pairs</li>
+	    <ul>
+	      <li>
+		This program computes a modified version of the Van Orden orthographic
+		similarity measure (Van Orden, 1987) for a pairs of words.<br><br>
+
+		Van Orden, G. C. (1987). A ROWS is a ROSE: Spelling, sound, and
+		reading. Memory & Cognition, 15(3), 181–198. Retrieved from
+		http://doi.apa.org/?uid=1988-22282-001<br><br>
+
+		Usage: python orthographicSimilarity input.csv<br><br>
+
+		input.csv should be a comma separated file with two columns. Each row
+		should contain your target word and the word it should be compared
+		with. No column names should be included. The result will be an output
+		file called output.csv that contains each word pair and its
+		orthographic similarity.
+	      </li>
+	    </ul>
+
+	    </li>
+
+	    <li><a href="files/postField.py">postField (Python)</a> - Search multiple people on the PSU Directory</li>
 	    <ul>
 	      <li>Given an input file that contains a list of names on each line,
 	      this program will look up each name Penn State Directory
@@ -96,7 +117,7 @@
 	      To execute this program, use "python postField.py" and follow the usage guidelines. This program requires the pycurl module.</li>
 	      
 	    </ul>
-	    <li><a href="files/command_line_scripts.py">Command Line Scripts</a></li>
+	    <li><a href="files/command_line_scripts.py">Command Line Scripts (Python)</a></li>
 	    <ul>
 	      
 	      <li>This contains some scripts I've written in Python that I
