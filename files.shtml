@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Files - Jason Gullifer's Website</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+
+
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- Delete everything in this .container and get started on your own site! -->
+
+	<div class="container">
+	  <div class="four columns sidebar">
+	    <nav>
+	    <h3>Jason Gullifer's Website</h3>
+	    <hr/>
+	    
+	    <!--#include virtual="./includes/menubar.html" -->		
+	    
+	    <h4>Contact Info</h4>
+	    <hr/>
+	    <p> 
+	      <em>Office Address</em>:<br\><br>
+	      2L Thomas Building <br/>
+	      University Park, PA 16802<br/>
+	      <br/>
+	      <em>Phone</em>: 1.814.863.7392<br/>
+	      <em>E-Mail</em>: <a href="mailto:jwg20@psu.edu">jwg20@psu.edu</a><br/>
+	    </p> 
+	    </nav>
+	  </div> 
+	  
+	  <div class="eleven columns content offset-by-one">
+	    <h1>Files</h1>
+	    <hr/>	    		
+	    <h3>Papers</h3>
+	    <ul>
+	      <li><a href="files/gullifer_sluicing.pdf">Processing Reverse Sluicing</a>
+	      <ul>
+		<li>This paper investigates processing differences between sentences containing filler-gap
+		dependencies and sentences with a cataphoric form of ellipsis, reverse sluicing. The results provide
+		supporting evidence for an integral element of syntactic theory: that movement and ellipsis are two
+		distinct structures.</li>
+		
+	      </ul>	
+	    </li>
+	  </ul>
+
+	  <h3>Programs</h3>
+	  <ul>
+	    
+	    <li><a href="files/orthographicSimilarity.py">orthographicSimilarity (Python)</a> - Compute orthographic similarity for word pairs</li>
+	    <ul>
+	      <li>
+		This program computes a modified version of the Van Orden orthographic
+		similarity measure (Van Orden, 1987) for a pairs of words.<br><br>
+
+		Van Orden, G. C. (1987). A ROWS is a ROSE: Spelling, sound, and
+		reading. Memory & Cognition, 15(3), 181–198. Retrieved from
+		http://doi.apa.org/?uid=1988-22282-001<br><br>
+
+		Usage: python orthographicSimilarity input.csv<br><br>
+
+		input.csv should be a comma separated file with two columns. Each row
+		should contain your target word and the word it should be compared
+		with. No column names should be included. The result will be an output
+		file called output.csv that contains each word pair and its
+		orthographic similarity.
+	      </li>
+	    </ul>
+
+	    </li>
+
+	    <li><a href="files/postField.py">postField (Python)</a> - Search multiple people on the PSU Directory</li>
+	    <ul>
+	      <li>Given an input file that contains a list of names on each line,
+	      this program will look up each name Penn State Directory
+	      (http://www.psu.edu/ldap/) and output the results for each name in a
+	      HTML file.<br><br>
+	      
+	      More generally, this program contains the method postField which can
+	      be passed a URL, a search string, and a field name. It will then
+	      submit that field to the URL as a POST request.<br><br>
+	      
+	      To execute this program, use "python postField.py" and follow the usage guidelines. This program requires the pycurl module.</li>
+	      
+	    </ul>
+	    <li><a href="files/command_line_scripts.py">Command Line Scripts (Python)</a></li>
+	    <ul>
+	      
+	      <li>This contains some scripts I've written in Python that I
+	      find useful and you might too! It was written originally for a
+	      Linux OS but should work on Windows as well. It currently
+	      contains only two functions, _listFiles() and
+	      bulkImageConvert().</li>
+	      
+	      <li>_listFiles() stores file names in to a variable. By itself it
+	      isn't very useful, but is required by
+	      bulkImageConvert(). </li>
+	      
+	      <li>bulkImageConvert() will convert all files of a
+	      specified type to a new, specified type. It
+	      requires <a href="http://www.imagemagick.org/script/index.php">imagemagick</a>
+	      to run. The function makes converting many images easier in that they
+	      don't have to be done one by one, or by an expensive program such as Photoshop. I recommend moving  your images to their own directory. This way no other files will be changed by accident (although this shouldn't happen). This won't overwrite your pictures.</li>
+	    </ul>	
+	  </li>
+	</ul>
+	
+	
+	<h3>Other things of interest</h3>
+	<ul>
+	  <li><a href="files/gullifer.gpg">My Public Key</a></li>
+	  <ul>
+	    
+	    <li>Want to send me something (files, emails, etc.) securely?
+	    Here's my public key!</li>
+	    <li>Check out <a href="http://getfiregpg.org/">firegpg</a> for a
+	    way to use encryption over Gmail from firefox without giving
+	    Google your private key/password.</li>
+	  </ul>	
+	</li>
+      </ul>
+    </div>
+
+		  	
+</div><!-- container -->
+
+
+
+	<!-- JS
+	================================================== -->
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="javascripts/tabs.js"></script>
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
