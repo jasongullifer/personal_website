@@ -41,26 +41,9 @@
 
 	<!-- Delete everything in this .container and get started on your own site! -->
 
-	<div class="container">
-	  <div class="four columns sidebar">
-	    <nav>
-	    <h3>Jason Gullifer's Website</h3>
-	    <hr/>
 	    
 	    <!--#include virtual="./includes/menubar.html" -->		
 	    
-	    <h4>Contact Info</h4>
-	    <hr/>
-	    <p> 
-	      <em>Office Address</em>:<br\><br>
-	      2L Thomas Building <br/>
-	      University Park, PA 16802<br/>
-	      <br/>
-	      <em>Phone</em>: 1.814.863.7392<br/>
-	      <em>E-Mail</em>: <a href="mailto:jwg20@psu.edu">jwg20@psu.edu</a><br/>
-	    </p> 
-	    </nav>
-	  </div> 
 	  
 	  <div class="eleven columns content offset-by-one">
 	    <h1>Connecting to Penn State with Linux</h1>
